@@ -1,0 +1,17 @@
+/tmp
+/out-tsc
+
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+
+.vscode/*
+# Project exclude paths
+/src/client_packages/chat.js
+/src/client_packages/index.js
+/src/server_packages/chat.js
+/src/server_packages/commands.js
+/src/server_packages/index.js

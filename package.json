@@ -1,0 +1,15 @@
+{
+  "name": "galajus-gta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@ragempcommunity/types-client": "^2.1.9",
+    "@ragempcommunity/types-server": "^2.1.9",
+    "@types/node": "^22.13.4"
+  },
+  "private": true
+}

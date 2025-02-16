@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <style>
+    #chatbox { width: 300px; height: 200px; background: rgba(0,0,0,0.6); overflow-y: auto; }
+    #input { width: 100%; }
+  </style>
+</head>
+<body>
+<div id="chatbox"></div>
+<input id="input" type="text" onkeydown="if(event.key === 'Enter') sendMessage()">
+
+<script>
+  function sendMessage() {
+    let input = document.getElementById("input");
+    mp.trigger("sendMessageToServer", input.value);
+    input.value = "";
+  }
+  function openChat() { document.getElementById("input").focus(); }
+</script>
+</body>
+</html>

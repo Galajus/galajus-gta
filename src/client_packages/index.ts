@@ -1,0 +1,1 @@
+require("./chat"); //use 'require' instead 'import' in client_packages for properly working
