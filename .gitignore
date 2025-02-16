@@ -8,6 +8,9 @@ yarn-error.log*
 /.pnp
 .pnp.js
 
+.idea
+dist
+
 .vscode/*
 # Project exclude paths
 /src/client_packages/chat.js
